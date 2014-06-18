@@ -3,7 +3,7 @@
 package watch
 
 import (
-	"gopkg.in/tomb.v1"
+	"github.com/bububa/tomb"
 	"os"
 )
 

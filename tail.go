@@ -3,12 +3,12 @@
 package tail
 
 import (
-	"bufio"
 	"fmt"
-	"github.com/ActiveState/tail/ratelimiter"
-	"github.com/ActiveState/tail/util"
-	"github.com/ActiveState/tail/watch"
-	"gopkg.in/tomb.v1"
+	"github.com/bububa/tail/bufio"
+	"github.com/bububa/tail/ratelimiter"
+	"github.com/bububa/tail/util"
+	"github.com/bububa/tail/watch"
+	"github.com/bububa/tomb"
 	"io"
 	"io/ioutil"
 	"log"

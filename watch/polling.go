@@ -3,8 +3,8 @@
 package watch
 
 import (
-	"github.com/ActiveState/tail/util"
-	"gopkg.in/tomb.v1"
+	"github.com/bububa/tail/util"
+	"github.com/bububa/tomb"
 	"os"
 	"time"
 )
